@@ -22,6 +22,7 @@ import {
   IconPhoneCall,
   IconRocket,
   IconRss,
+  IconWriting,
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -45,12 +46,12 @@ import {
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/hero.jpg';
+import mainPng from '~/assets/images/main.png';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
+import vkLogo from '~/assets/images/vk-logo.svg';
+import whatsappLogo from '~/assets/images/whatsapp-logo.svg';
+import telegramLogo from '~/assets/images/telegram-logo.svg';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -125,26 +126,18 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Психолог Кочеткова Елена
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      <span className="hidden md:inline">Специалист по тревоге и стрессу</span>
     </>
   ),
   callToAction: {
-    text: 'Get template',
+    text: 'Записаться на приём',
     href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    icon: IconWriting,
     targetBlank: true,
     btnType: 'primary',
   },
@@ -153,8 +146,8 @@ export const heroData: HeroProps = {
     href: '/',
   },
   image: {
-    src: heroImg,
-    alt: 'Hero TailNext',
+    src: mainPng,
+    alt: 'Избавьтесь от тревоги и стресса',
   },
 };
 
@@ -183,24 +176,19 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
+      link: 'https://vk.me/psy_elena_kochetkova',
+      src: vkLogo,
+      alt: 'VK Logo',
     },
     {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
+      link: 'https://t.me/elenakochetkova90',
+      src: telegramLogo,
+      alt: 'Telegram Logo',
     },
     {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
+      link: 'https://wa.me/79272426389',
+      src: whatsappLogo,
+      alt: 'Whatsapp Logo',
     },
   ],
 };

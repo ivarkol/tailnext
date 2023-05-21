@@ -3,7 +3,7 @@ import { CallToAction, HeroProps } from '~/shared/types';
 import CTA from '../common/CTA';
 
 const Hero = (props: { data: HeroProps }) => {
-  const { title, subtitle, callToAction, callToAction2, image } = props.data;
+  const { title, subtitle, callToAction, image } = props.data;
 
   return (
     <section id="heroOne">
@@ -19,7 +19,6 @@ const Hero = (props: { data: HeroProps }) => {
               {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 <CTA data={callToAction as CallToAction} />
-                <CTA data={callToAction2 as CallToAction} />
               </div>
             </div>
           </div>
