@@ -613,27 +613,30 @@ export const featuresData3: FeaturesProps = {
 // Content data
 export const contentData: ContentProps = {
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    highlight: 'Content',
+    title: 'Обо мне',
+    // subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
+    // highlight: 'Content',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    'Я - практикующий психолог. Работаю с разными людьми, с каждым стараюсь найти свой подход. В своей практике я применяю следующие методы и подходы:',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
-      description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+      title: 'Когнитивно-поведенческая терапия (КПТ)',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
-      description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+      title: 'Гештальт-терапия',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
-      description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+      title: 'Арт-терапия',
+    },
+    {
+      title: 'Метафорические ассоциативные карты',
+    },
+    {
+      title: 'Телесно-ориентированная терапия',
+    },
+    {
+      title: 'Перинатальная терапия',
     },
   ],
   image: {
@@ -647,25 +650,25 @@ export const contentData: ContentProps = {
 // Content2 data
 export const content2Data: ContentProps = {
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+    'Проблемы, с которыми помогаю справиться:',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'выстроить качественные отношения с окружающими',
+      description: 'детско-родительские отношения, отношения с близкими и коллегами; избавиться от одиночества',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'проработать эмоционально-личностные особенности',
+      description: 'обиды, страхи, тревожность, неуверенность, низкая самооценка',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'разобраться с личностными кризисами',
+      description: 'поиск и познание себя, профессиональный и карьерный рост, саморазвитие',
     },
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'найти выход из неразрешимых ситуаций',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'психологическая поддержка до, во время беременности и после рождения ребёнка, работа со страхами',
     },
   ],
   image: {
@@ -824,17 +827,18 @@ export const teamData: TeamProps = {
 // Testimonial data
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'What our customers say about us',
+    title: 'Отзывы моих клиентов',
     subtitle:
       'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
     // highlight: 'Testimonial',
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
+      name: 'Александр',
       occupation: 'Marketing Manager',
       comment:
-        'Suspendisse mollis ante turpis, ut fermentum nulla finibus ac. Integer ut justo id dolor lobortis pharetra. Integer ultrices leo a nunc ullamcorper commodo. In id nulla et nibh pretium pretium non vel metus. Suspendisse dapibus quis lorem sit amet fermentum. Ut a dapibus justo. In faucibus molestie pretium. Cras eros orci, bibendum fringilla elit at, vehicula maximus eros. Aenean placerat aliquet mi, et pellentesque dolor gravida at.',
+        'Очень приятная девушка! Спасибо большое за мой первый опыт в консультации по видеосвязи! Спасибо за консультацию! Она была мне' +
+        ' полезна! И я начал действовать! Елена, Вам спасибо за искренность и открытость!',
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -843,10 +847,10 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Silver Jordan',
+      name: 'Юлия',
       occupation: 'Senior Marketer',
       comment:
-        'Mauris semper enim dolor, ac dictum sapien sollicitudin quis. Quisque id pharetra mi. Phasellus eu posuere lectus, vitae rhoncus velit. Nullam imperdiet purus quis dapibus vestibulum. Integer purus ex, hendrerit at elementum non, varius a nibh. Ut eget convallis mi. Morbi mattis, felis sit amet consectetur scelerisque, odio purus ornare sapien, in feugiat lorem tellus et magna. Pellentesque luctus dolor in ornare mattis.',
+        'Елена, благодарю за консультацию! Столько поддержки и теплоты.',
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -855,10 +859,10 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Kelsey Arden',
+      name: 'Эльмира',
       occupation: 'Co-Founder & CEO',
       comment:
-        'Sed malesuada rhoncus arcu, sit amet condimentum leo pharetra feugiat. In augue quam, venenatis nec dui in, auctor tempus libero. Aliquam tempus ex id metus viverra blandit. Proin varius venenatis tortor, a pellentesque enim malesuada a. Aliquam lectus magna, interdum eget odio non, consequat imperdiet ipsum.',
+        'Спасибо за консультацию, Елена. Вспомнилось и плохое, и хорошее. Стало легче на душе, что выговорилась. Будем работать и дальше над собой, над своими мыслями и действиями. Спасибо за тёплый приём.',
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',

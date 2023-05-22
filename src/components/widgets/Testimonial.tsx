@@ -26,24 +26,24 @@ const Testimonial = () => {
                     className="card-body"
                   >
                     <div className="mb-4 flex">
-                      {image && (
-                        <Image
-                          src={image.src}
-                          width={48}
-                          height={48}
-                          alt={image.alt}
-                          className="mr-4 h-12 w-12 rounded-full object-cover shadow-lg"
-                        />
-                      )}
+                      {/*{image && (*/}
+                      {/*  <Image*/}
+                      {/*    src={image.src}*/}
+                      {/*    width={48}*/}
+                      {/*    height={48}*/}
+                      {/*    alt={image.alt}*/}
+                      {/*    className="mr-4 h-12 w-12 rounded-full object-cover shadow-lg"*/}
+                      {/*  />*/}
+                      {/*)}*/}
                       <div className="text-left">
                         <h3 className="font-semibold">{name}</h3>
-                        <span className="">{occupation}</span>
+                        {/*<span className="">{occupation}</span>*/}
                       </div>
                     </div>
                     {comment && (
                       <p className="m-b-30 font-light dark:text-slate-400">{`"${comment.slice(0, 150)}..."`}</p>
                     )}
-                    {href && Icon && <Icon className="mx-auto mt-4 h-6 w-6 text-primary-600 dark:text-slate-200" />}
+                    {/*{href && Icon && <Icon className="mx-auto mt-4 h-6 w-6 text-primary-600 dark:text-slate-200" />}*/}
                   </a>
                 </div>
               </div>

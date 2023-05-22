@@ -23,7 +23,7 @@ const HeaderWidget = ({ header, titleClassname }: HeaderWidgetProps) => {
               {title}
             </h2>
           )}
-          {subtitle && <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">{subtitle}</p>}
+          {/*{subtitle && <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">{subtitle}</p>}*/}
         </div>
       )}
     </div>
