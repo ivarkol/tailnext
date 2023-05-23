@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { FormProps } from '../../shared/types';
+import {log} from "next/dist/server/typescript/utils";
 
 const Form = ({ title, description, inputs, radioBtns, textarea, checkboxes, btn, btnPosition }: FormProps) => {
   const [inputValues, setInputValues] = useState([]);

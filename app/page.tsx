@@ -38,11 +38,11 @@ export default function Page() {
       <Content {...content2Data} />
       <Steps />
       <Testimonial />
-      <FAQs2 {...faqsData2} />
+      {/*<FAQs2 {...faqsData2} />*/}
       <Pricing {...pricingData} />
-      <Team />
+      {/*<Team />*/}
       <Contact />
-      <CallToAction2 {...callToActionData} />
+      {/*<CallToAction2 {...callToActionData} />*/}
     </>
   );
 }

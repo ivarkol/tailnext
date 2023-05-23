@@ -45,13 +45,16 @@ import {
 
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
-import heroImg from '~/assets/images/hero.jpg';
 import mainPng from '~/assets/images/main.png';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 import vkLogo from '~/assets/images/vk-logo.svg';
+import vkRecLogo from '~/assets/images/vk-rec-logo.svg';
 import whatsappLogo from '~/assets/images/whatsapp-logo.svg';
+import whatsappRecLogo from '~/assets/images/whatsapp-rec-logo.svg';
 import telegramLogo from '~/assets/images/telegram-logo.svg';
+import telegramRecLogo from '~/assets/images/telegram-rec-logo.svg';
+import instagramRecLogo from '~/assets/images/instagram-rec-logo.svg';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -681,28 +684,28 @@ export const content2Data: ContentProps = {
 
 // Steps data
 export const stepsData: StepsProps = {
-  title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+  title: 'Преимущества моих консультаций',
   items: [
     {
-      title: 'Step 1',
+      title: 'Анонимность 100%',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'До обращения, во время консультирования и после обращения',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: 'Доступность',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Удобный для Вас режим работы.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: 'Комфортный формат',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Приём офлайн и онлайн',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: 'Работа в соответствии с этическим кодексом',
       icon: IconCheck,
     },
   ],
@@ -1073,9 +1076,8 @@ export const statsData: StatsProps = {
 // Contact data
 export const contactData: ContactProps = {
   header: {
-    title: 'Get in Touch',
+    title: 'Запишитесь на консультацию или задайте вопрос',
     subtitle: 'In hac habitasse platea dictumst',
-    highlight: 'Contact',
   },
   content:
     'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
@@ -1097,30 +1099,52 @@ export const contactData: ContactProps = {
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    // title: 'Ready to Get Started?',
     inputs: [
       {
         type: 'text',
         name: 'name',
-        placeholder: 'Your name',
+        placeholder: 'Ваше имя',
       },
       {
         type: 'email',
         name: 'email',
-        placeholder: 'Your email address',
+        placeholder: 'Ваш email',
       },
     ],
     textarea: {
       cols: 30,
       rows: 5,
       name: 'textarea',
-      placeholder: 'Write your message...',
+      placeholder: 'Ваш вопрос...',
     },
     btn: {
-      title: 'Send Message',
+      title: 'Отправить',
       type: 'submit',
     },
   },
+  images: [
+    {
+      link: 'https://wa.me/79272426389',
+      src: whatsappRecLogo,
+      alt: 'Whatsapp Logo',
+    },
+    {
+      link: 'https://t.me/elenakochetkova90',
+      src: telegramRecLogo,
+      alt: 'Telegram Logo',
+    },
+    {
+      link: 'https://vk.me/psy_elena_kochetkova',
+      src: vkRecLogo,
+      alt: 'VK Logo',
+    },
+    {
+      link: 'https://www.instagram.com/psycholog_elena_kochetkova',
+      src: instagramRecLogo,
+      alt: 'Instagram Logo',
+    },
+  ],
 };
 
 // Contact2 data

@@ -240,6 +240,7 @@ interface ContactProps {
   content?: string;
   items: Array<Item>;
   form: FormProps;
+  images?: Array<Image>;
 }
 
 interface FooterProps {
