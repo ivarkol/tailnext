@@ -21,14 +21,14 @@ const Pricing = ({ header, prices }: PricingProps) => (
                   </div>
                 )}
                 <ul className="px-2 py-0">
-                  <li className="text-center text-xl font-medium uppercase leading-6 tracking-wider text-gray-800 dark:text-slate-400">
+                  <li className="text-center text-xs font-bold uppercase leading-6 tracking-wider text-gray-800 dark:text-slate-400">
                     {title}
                   </li>
                   <li className="mt-5 mb-2.5 flex items-center justify-center text-center font-semibold">
-                    <span className="text-5xl">$</span>
                     <span className="text-6xl">{value}</span>
+                    <span className="text-6xl">₽</span>
                   </li>
-                  <li className="mb-7 text-center text-base font-medium capitalize leading-6 text-gray-600 dark:text-slate-400">
+                  <li className="mb-7 text-center text-base font-medium leading-6 text-gray-600 dark:text-slate-400">
                     {period}
                   </li>
                   {texts &&
@@ -45,7 +45,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
                     ))}
                 </ul>
                 {callToAction && (
-                  <CTA data={callToAction as CallToAction} class={`mt-8 ${hasRibbon ? 'btn-primary' : ''}`} />
+                  <CTA data={callToAction as CallToAction} class={`mt-8`} />
                 )}
               </div>
             </div>

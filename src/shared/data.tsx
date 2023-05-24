@@ -621,39 +621,7 @@ export const contentData: ContentProps = {
     // highlight: 'Content',
   },
   content:
-    'Я - практикующий психолог. Работаю с разными людьми, с каждым стараюсь найти свой подход. В своей практике я применяю следующие методы и подходы:',
-  items: [
-    {
-      title: 'Когнитивно-поведенческая терапия (КПТ)',
-    },
-    {
-      title: 'Гештальт-терапия',
-    },
-    {
-      title: 'Арт-терапия',
-    },
-    {
-      title: 'Метафорические ассоциативные карты',
-    },
-    {
-      title: 'Телесно-ориентированная терапия',
-    },
-    {
-      title: 'Перинатальная терапия',
-    },
-  ],
-  image: {
-    src: cameraFrontImg,
-    alt: 'Colorful Image',
-  },
-  isReversed: false,
-  isAfterContent: false,
-};
-
-// Content2 data
-export const content2Data: ContentProps = {
-  content:
-    'Проблемы, с которыми помогаю справиться:',
+    'Я - практикующий психолог. Работаю с разными людьми, с каждым стараюсь найти свой подход. Проблемы, с которыми помогаю справиться:',
   items: [
     {
       title: 'выстроить качественные отношения с окружающими',
@@ -672,6 +640,38 @@ export const content2Data: ContentProps = {
     },
     {
       title: 'психологическая поддержка до, во время беременности и после рождения ребёнка, работа со страхами',
+    },
+  ],
+  image: {
+    src: cameraFrontImg,
+    alt: 'Colorful Image',
+  },
+  isReversed: false,
+  isAfterContent: false,
+};
+
+// Content2 data
+export const content2Data: ContentProps = {
+  content:
+    'В своей практике я применяю следующие методы и подходы:',
+  items: [
+    {
+      title: 'Когнитивно-поведенческая терапия (КПТ)',
+    },
+    {
+      title: 'Гештальт-терапия',
+    },
+    {
+      title: 'Арт-терапия',
+    },
+    {
+      title: 'Метафорические ассоциативные карты',
+    },
+    {
+      title: 'Телесно-ориентированная терапия',
+    },
+    {
+      title: 'Перинатальная терапия',
     },
   ],
   image: {
@@ -879,55 +879,48 @@ export const testimonialData: TestimonialProps = {
 // Pricing data
 export const pricingData: PricingProps = {
   header: {
-    title: 'Prices for each plan',
+    title: 'Стоимость',
     subtitle:
       'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
     // highlight: 'Pricing',
   },
   prices: [
     {
-      title: 'basic',
-      value: 29,
-      period: 'per month',
+      title: 'Разовая консультация',
+      value: 2000,
+      period: 'за 1 консультацию',
       texts: [
-        'Etiam in libero',
-        'Aenean ac nunc',
-        'Cras scelerisque accumsan libero, et volutpat dolor tristique at',
-        'In hac habitasse',
+        'Первая диагностическая 1500₽',
       ],
       callToAction: {
-        text: 'Free 7-day trial',
+        text: 'Записаться',
         href: '/',
       },
       hasRibbon: false,
     },
     {
-      title: 'standard',
-      value: 69,
-      period: 'per month',
-      texts: ['Proin vel laoreet', 'Ut efficitur egestas', 'Pellentesque ut nibh', 'Donec fringilla sem'],
+      title: 'Пакет из 7 консультаций',
+      value: 1800,
+      period: 'за 1 консультацию',
+      texts: ['Полная стоимость пакета 12600₽'],
       callToAction: {
-        text: 'Free 15-day trial',
+        text: 'Записаться',
         href: '/',
       },
       hasRibbon: true,
-      ribbonTitle: 'Popular',
+      ribbonTitle: '10%',
     },
     {
-      title: 'premium',
-      value: 199,
-      period: 'per month',
-      texts: [
-        'Curabitur suscipit risus',
-        'Aliquam blandit malesuada',
-        'Suspendisse sit amet',
-        'Suspendisse auctor dui',
-      ],
+      title: 'Пакет из 10 консультаций',
+      value: 1700,
+      period: 'за 1 консультацию',
+      texts: ['Полная стоимость пакета 17000₽'],
       callToAction: {
-        text: 'Free 30-day trial',
+        text: 'Записаться',
         href: '/',
       },
-      hasRibbon: false,
+      hasRibbon: true,
+      ribbonTitle: '15%',
     },
   ],
 };
