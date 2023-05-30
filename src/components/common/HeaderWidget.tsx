@@ -18,7 +18,7 @@ const HeaderWidget = ({ header, titleClassname }: HeaderWidgetProps) => {
           )}
           {title && (
             <h2
-              className={`font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white ${titleClassname}`}
+              className={`font-heading mb-4 font-bold tracking-tight text-gray-700 dark:text-white ${titleClassname}`}
             >
               {title}
             </h2>

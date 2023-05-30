@@ -894,7 +894,7 @@ export const pricingData: PricingProps = {
       ],
       callToAction: {
         text: 'Записаться',
-        href: '/',
+        href: '#contact',
       },
       hasRibbon: false,
     },
@@ -905,7 +905,7 @@ export const pricingData: PricingProps = {
       texts: ['Полная стоимость пакета 12600₽'],
       callToAction: {
         text: 'Записаться',
-        href: '/',
+        href: '#contact',
       },
       hasRibbon: true,
       ribbonTitle: '10%',
@@ -917,7 +917,7 @@ export const pricingData: PricingProps = {
       texts: ['Полная стоимость пакета 17000₽'],
       callToAction: {
         text: 'Записаться',
-        href: '/',
+        href: '#contact',
       },
       hasRibbon: true,
       ribbonTitle: '15%',

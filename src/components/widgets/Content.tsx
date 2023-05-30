@@ -25,7 +25,7 @@ const Content = ({ header, content, items, image, isReversed, isAfterContent }: 
                     </div>
                     <div className="ml-4">
                       {title && (
-                        <h3 className="text-md font-medium leading-6 text-gray-900 dark:text-white">{title}</h3>
+                        <h3 className="text-md font-medium leading-6 text-gray-700 dark:text-white">{title}</h3>
                       )}
                       {description && <p className="mt-2 text-xs text-gray-600 dark:text-slate-400">{description}</p>}
                     </div>

@@ -10,7 +10,7 @@ const Steps = () => {
     <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mb-4 md:mb-0 md:py-4 md:pr-16">
-          {title && <h2 className="font-heading mb-8 text-3xl font-bold">{title}</h2>}
+          {title && <h2 className="font-heading mb-8 text-3xl font-bold text-gray-800">{title}</h2>}
           {items &&
             items.length &&
             items.map(({ title, description, icon: Icon }, index) => (
@@ -38,7 +38,7 @@ const Steps = () => {
                   {index !== items.length - 1 && <div className="h-full w-px bg-gray-300 dark:bg-slate-500"></div>}
                 </div>
                 <div className={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
-                  {title && <p className="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">{title}</p>}
+                  {title && <p className="mb-2 text-xl font-bold text-gray-700 dark:text-slate-300">{title}</p>}
                   {description && <p className="text-gray-600 dark:text-slate-400">{description}</p>}
                 </div>
               </div>

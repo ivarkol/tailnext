@@ -11,7 +11,7 @@ const Hero = (props: { data: HeroProps }) => {
         <div className="py-12 md:py-20">
           <div className="mx-auto max-w-4xl pb-4 text-center md:pb-4">
             {title && (
-              <h1 className="leading-tighter font-heading mb-2 text-4xl font-bold tracking-tighter md:text-4xl">
+              <h1 className="leading-tighter font-heading mb-2 text-4xl text-gray-700 font-bold tracking-tighter md:text-4xl">
                 {title}
               </h1>
             )}

@@ -21,10 +21,10 @@ const Pricing = ({ header, prices }: PricingProps) => (
                   </div>
                 )}
                 <ul className="px-2 py-0">
-                  <li className="text-center text-xs font-bold uppercase leading-6 tracking-wider text-gray-800 dark:text-slate-400">
+                  <li className="text-center text-xs font-bold uppercase leading-6 tracking-wider text-gray-700 dark:text-slate-400">
                     {title}
                   </li>
-                  <li className="mt-5 mb-2.5 flex items-center justify-center text-center font-semibold">
+                  <li className="mt-5 mb-2.5 flex items-center justify-center text-center font-semibold text-gray-800">
                     <span className="text-6xl">{value}</span>
                     <span className="text-6xl">₽</span>
                   </li>
