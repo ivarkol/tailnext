@@ -9,17 +9,17 @@ const Hero = (props: { data: HeroProps }) => {
     <section id="heroOne">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
-          <div className="mx-auto max-w-4xl pb-10 text-center md:pb-16">
+          <div className="mx-auto max-w-4xl pb-4 text-center md:pb-4">
             {title && (
-              <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-4xl">
+              <h1 className="leading-tighter font-heading mb-2 text-4xl font-bold tracking-tighter md:text-4xl">
                 {title}
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
               {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
-              <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
-                <CTA data={callToAction as CallToAction} />
-              </div>
+              {/*<div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">*/}
+              {/*  <CTA data={callToAction as CallToAction} />*/}
+              {/*</div>*/}
             </div>
           </div>
           {image && (

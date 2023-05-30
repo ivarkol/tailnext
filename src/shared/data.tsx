@@ -71,50 +71,50 @@ export const announcementData: AnnouncementProps = {
 
 // Header data
 export const headerData: HeaderProps = {
-  links: [
-    {
-      label: 'Pages',
-      icon: IconChevronDown,
-      links: [
-        {
-          label: 'About us',
-          href: '/about',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-      ],
-    },
-    {
-      label: 'Blog',
-      href: '/blog',
-    },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
-  ],
+  // links: [
+  //   {
+  //     label: 'Pages',
+  //     icon: IconChevronDown,
+  //     links: [
+  //       {
+  //         label: 'About us',
+  //         href: '/about',
+  //       },
+  //       {
+  //         label: 'Pricing',
+  //         href: '/pricing',
+  //       },
+  //       {
+  //         label: 'Contact us',
+  //         href: '/contact',
+  //       },
+  //       {
+  //         label: 'FAQs',
+  //         href: '/faqs',
+  //       },
+  //       {
+  //         label: 'Privacy Policy',
+  //         href: '/privacy',
+  //       },
+  //       {
+  //         label: 'Terms & Conditions',
+  //         href: '/terms',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     label: 'Blog',
+  //     href: '/blog',
+  //   },
+  //   {
+  //     label: 'Contact',
+  //     href: '/contact',
+  //   },
+  // ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Записаться',
+      href: '#contact',
       targetBlank: true,
       btnType: 'primary',
     },
@@ -139,7 +139,7 @@ export const heroData: HeroProps = {
   ),
   callToAction: {
     text: 'Записаться на приём',
-    href: 'https://github.com/onwidget/tailnext',
+    href: '#contact',
     icon: IconWriting,
     targetBlank: true,
     btnType: 'primary',
