@@ -7,10 +7,10 @@ const Steps = () => {
   const { title, items, image } = stepsData;
 
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+    <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mb-4 md:mb-0 md:py-4 md:pr-16">
-          {title && <h2 className="font-heading mb-8 text-3xl font-bold lg:text-4xl">{title}</h2>}
+          {title && <h2 className="font-heading mb-8 text-3xl font-bold">{title}</h2>}
           {items &&
             items.length &&
             items.map(({ title, description, icon: Icon }, index) => (

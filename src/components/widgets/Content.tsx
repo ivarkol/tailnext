@@ -7,27 +7,27 @@ import HeaderWidget from '../common/HeaderWidget';
 const Content = ({ header, content, items, image, isReversed, isAfterContent }: ContentProps) => (
   <section className="bg-primary-50 dark:bg-slate-800">
     <div
-      className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ${isAfterContent ? 'pt-1 pb-16 md:pb-20' : 'py-16 md:py-20'}`}
+      className={`mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 ${isAfterContent ? 'pt-1 pb-16 md:pb-20' : 'py-16 md:py-20'}`}
     >
       {header && <HeaderWidget header={header} titleClassname="text-3xl sm:text-5xl" />}
       <div className="mx-auto max-w-7xl">
         <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
-          <div className="self-center md:basis-1/2">
-            {content && <div className="mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
+          <div className="md:basis-1/2">
+            {content && <div className="mb-6 text-md text-gray-600 dark:text-slate-400">{content}</div>}
             {items && (
-              <div className="space-y-8">
+              <div className="space-y-4">
                 {items.map(({ title, description }, index) => (
                   <div key={`item-content-${index}`} className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary-900 text-gray-50">
-                        <IconCheck className="h-5 w-5" />
+                      <div className="flex h-5 w-5 items-center justify-center rounded-full bg-primary-900 text-gray-50">
+                        <IconCheck className="h-3 w-3" />
                       </div>
                     </div>
                     <div className="ml-4">
                       {title && (
-                        <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white">{title}</h3>
+                        <h3 className="text-md font-medium leading-6 text-gray-900 dark:text-white">{title}</h3>
                       )}
-                      {description && <p className="mt-2 text-gray-600 dark:text-slate-400">{description}</p>}
+                      {description && <p className="mt-2 text-xs text-gray-600 dark:text-slate-400">{description}</p>}
                     </div>
                   </div>
                 ))}
